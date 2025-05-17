@@ -27,14 +27,14 @@ const visibilities: Array<{
 }> = [
   {
     id: 'private',
-    label: 'Private',
-    description: 'Only you can access this chat',
+    label: 'Issuer',
+    description: 'Chat platform for the issuance of the impact certificates',
     icon: <LockIcon />,
   },
   {
     id: 'public',
-    label: 'Public',
-    description: 'Anyone with the link can access this chat',
+    label: 'Buyer',
+    description: 'Chat platform for the buyers of the impact certificates',
     icon: <GlobeIcon />,
   },
 ];
